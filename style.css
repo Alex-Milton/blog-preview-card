@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('/fonts/static/Figtree-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('/fonts/Figtree-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+	--color-gray-950: #111;
+	--color-white: #fff;
+	--color-yellow: #f4d04e;
+	--color-gray-500: #6b6b6b;
+    --font-family: "Figtree" , sans-serif;
+}
+
+body{
+    background-color: var(--color-yellow);
+}
+.container{
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block_card{
+    box-sizing: border-box;
+    border: 1px solid var(--color-gray-950);
+    border-radius: 20px;
+    padding: 24px;
+    width: 384px;
+    height: 522px;
+    box-shadow: 8px 8px 0 0 #000;
+    background: var(--color-white);
+}
+
+.images{
+    border-radius: 10px;
+}
+
+.content_card{
+    margin-top: 24px;
+    width: 336px;
+    height: 194px;
+}
+
+.content{
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: 82px;
+    height: 29px;
+    background: var(--color-yellow);
+}
+
+.learning{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+.data{
+    margin-bottom: 12px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+.title_text{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--color-gray-950);
+    text-decoration: none;
+  }
+  
+  .title_text:hover {
+    color: var(--color-yellow);
+  }
+
+.text_content{
+    margin:12px 0 24px 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-gray-500);
+}
+
+.Author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 129px;
+    height: 32px;
+}
+
+.Avatar{
+    width: 32px; 
+    height: 32px;
+}
+
+.avatar_name{
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--color-gray-950);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+   
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
